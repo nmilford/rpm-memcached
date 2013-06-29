@@ -2,7 +2,7 @@
 #
 # sudo yum -y install rpmdevtools && rpmdev-setuptree
 # sudo yum -y install libevent-devel
-# wget http://memcached.googlecode.com/files/memcached-1.4.14.tar.gz -O ~/rpmbuild/SOURCES/memcached-1.4.14.tar.gz
+# wget http://memcached.googlecode.com/files/memcached-1.4.15.tar.gz -O ~/rpmbuild/SOURCES/memcached-1.4.15.tar.gz
 # wget https://raw.github.com/nmilford/rpm-memcached/master/memcached.spec -O ~/rpmbuild/SPECS/memcached.spec
 # rpmbuild -bb ~/rpmbuild/SPECS/memcached.spec
 
@@ -20,7 +20,7 @@
 
 Summary: Distributed memory object caching system
 Name: memcached
-Version: 1.4.14
+Version: 1.4.15
 Release: 1%{?dist}
 License: BSD
 Group: System Environment/Daemons
