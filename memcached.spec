@@ -188,7 +188,7 @@ fi
 
 %files
 %defattr(-, root, root, 0755)
-%doc AUTHORS ChangeLog COPYING doc/*.txt scripts/README.damemtop NEWS README
+%doc AUTHORS ChangeLog COPYING doc/*.txt scripts/README.damemtop NEWS README.md
 %doc %{_mandir}/man?/*
 %config(noreplace) %{_sysconfdir}/sysconfig/memcached
 %config(noreplace) %{_sysconfdir}/damemtop.yaml
