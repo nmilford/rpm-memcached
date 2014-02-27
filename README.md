@@ -9,7 +9,7 @@ To Build:
 
 `sudo yum -y install libevent-devel`
 
-`wget http://memcached.googlecode.com/files/memcached-1.4.15.tar.gz -O ~/rpmbuild/SOURCES/memcached-1.4.15.tar.gz`
+`wget http://memcached.googlecode.com/files/memcached-1.4.17.tar.gz -O ~/rpmbuild/SOURCES/memcached-1.4.17.tar.gz`
 
 `wget https://raw.github.com/nmilford/rpm-memcached/master/memcached.spec -O ~/rpmbuild/SPECS/memcached.spec`
 
